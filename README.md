@@ -1,4 +1,7 @@
 # DataScience
+22/11:
+ImportedDataSet3Clone.ipynb now has an actual fitted polynomial line to the dataset (as should), representing the fluctuating gold prices over the years (non-linear)
+
 21/11: ImportedDataSet3Clone.ipynb is the most recent version of the prices of gold graph, and has an actual polynomial line (rather than a line of best fit as in ImportedDataSet3.ipynb).
 The polynomial line is  a still work in progress as it doesnt really fit perfectly with the data and is still too linear.
 
