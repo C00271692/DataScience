@@ -28,3 +28,5 @@ weighted avg       0.86      0.86      0.85      6513
 9. setting up to use GPU acceleration
 
 10. First issue my laptop has 2 GPU's, integrated gpu in the processor and a dedicated nvidia GPU. On Linux have to install official nvidia driver to use dedicated GPU
+
+11. Tried 2 different librarys, and cannot seem to generate any results. on Linux we are stuck processing for 25+ minutes and vs code will crash after that. On Windows managed to avoid crash but proessing took 150+ minutes, at which point i interrupted processing (unfeesable). SVC library not sure if it works. Processor and GPU are being used heavily during the execution but takes ridiciously long. Tried anoter library (cuml), but this one is very difficult to set up and requires changing kernel settings for Nvidia GPU drivers (very sensitive, can break the while system). May have to cease this project for now as deadline approaches, might go back to it if i have time.
