@@ -1,19 +1,25 @@
 # DataScience
-25/11/2024:
-ImportedDatasetDecisionTree.ipynb show the likelyness of rain when factors such as temperature, windspeed, humidity, cloud coverage and pressure are fed into the training and testing algorithms.
-The output is a decision tree with a 1.0 accurracy (probably overfitted), and a Confusuon matrix confirming our prediction being very strong. 
+This is my 4th year college Datascience Repository for Semester 1 and Semester 2.
+In this repository I have multiple machine learning and Datasciece algorithms, including
+Linear regression, Decision Trees, Naive Bayes, K Means Clustering, K Nearest Neighbour and SVM.
+For Semester 1 (A Lab folder), the 2 main algorithms are in ImportedDataset3.ipynb 
+(Linear Regression) and ImportedDatasetDecisionTree.ipynb (De0cision Tree).
+The main dataset is the 'XAU_1Month_data_2004_to_2024-09-20.csv'.
+Read the Doc includede in the directory for more info
 
-22/11/2024:
-ImportedDataSet3Clone.ipynb now has an actual fitted polynomial line to the dataset (as should), representing the fluctuating gold prices over the years (non-linear)
+---------------------------------------------------------------------------------------
 
-21/11/2024: ImportedDataSet3Clone.ipynb is the most recent version of the prices of gold graph, and has an actual polynomial line (rather than a line of best fit as in ImportedDataSet3.ipynb).
-The polynomial line is  a still work in progress as it doesnt really fit perfectly with the data and is still too linear.
+For Semester 2 I have projects on Naive Bayes, K means clustering, K Nearest Neighbours and SVM.
+Files ending in "Large" (e.g K-Nearest-NeigbourLarge.ipynb), use the very large all_car_adverts.csv
+dataset, which was too large to push into the repository so i will include a link to that dataset here:
+https://www.kaggle.com/datasets/guanhaopeng/uk-used-car-market?resource=download
 
-22/10/2024: ImportedDataSet3.ipynb is the prices of gold and this is the file I worked the most on in this iteration.
-The other two (ImportedDataSet.ipynb and ImportedDataSet2.ipynb) are about value of homes in california
-and the the coorelation of horsepower to miles per gallon bured by a given car.
-I have done some work on these but for this iteration my main focus was on the monthly prices of gold (ImportedDataSet3).
+Please Note that all files with "Large" will not work unless you downlaod the all_car_adverts.csv dataset
+and place it in the same repository as the algorithm (DataScienceSem2).
 
-LabMain.ipynb is the template for data modelling we did in class and I used is as a guide/template thorughout the other projects
+The other files are without he "Large" ending are simple implementation of each algorithm and will work
+with the smaller dataset (included in the repo)
 
-Link to my Online Portfolio: https://c00271692.github.io/
+For more details on each seperate model view its corresponding ChangeLog.md
+
+Thank you for taking interest in my 4th year Data Science and Machine Learning portfolio!
