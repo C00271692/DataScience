@@ -11,6 +11,7 @@ implementations of the Linear Regression, however they are not fully well implem
 them to show my learning curve of the subject and the rocky beginnings.
 
 The main dataset is the 'XAU_1Month_data_2004_to_2024-09-20.csv'.
+
 Read the Doc included in the directory for more info
 
 ---------------------------------------------------------------------------------------
