@@ -40,7 +40,7 @@ for each image that we train the aglo on
 12. Using Nvidia acceleration, with batch size of 256 across 10 epochs, the model trained in 39 minutes and 32 seconds
 achieving accuracy: 0.8633 - loss: 0.4276 - val_accuracy: 0.7807 - val_loss: 1.0584 - learning_rate: 0.0010 on the last epoch (for Relu)
 
-13. This was achieved using hte RELU activation function
+13. This was achieved using the RELU activation function
 
 14. For learning purposes now i will try training our CNN with a sigmoid activation function and compare results such as processed time and accuracy
 
@@ -62,3 +62,5 @@ decided to keep the main block architecture the same as Relu handled this one ve
 128ms/step - accuracy: 0.0430 - loss: 3.8280 - val_accuracy: 0.0357 - val_loss: 3.7973 - learning_rate: 0.0010
 
 20. Without making majour changes to the architecture of the block i dont think ill be able to achieve anything with the other activation functions. The main issue with these AFs is the vanishin gradient, while the relu doesnt have this effect at all, because the gradient doesnt shrink in magnitude, unlike in tanh and sigmoid (where the gradient can only be multiplied by 0.25 / <1 )
+
+21. Setup a basic CNNTest notebook that will run our trained model on test samples and see how well our trained model predicts these samples (in Test). Essentially here we will actually compare the trained kernels on the test jpg by sliding it accross and measuring the accuracy (all done with tensorflow under the hood)
